@@ -20,7 +20,9 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-image:url('/afbeeldingen/Flag_of_Lithuania.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -67,7 +69,15 @@ img {
 }
 .item-tekst {
   float:right;
-  width: 450px;
+  width: 700px;
+  color:black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.item-Sovjet {
+  float: left;
+  width: 500px;
+  margin-top: 1;
+  margin-left: 500;
 }
 
 /* Indeling voor sub pagina */
@@ -75,7 +85,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: black;
 }
 
 .smalltext {
@@ -84,8 +94,8 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
-    text-decoration: none;
+    color:black;
+    border:
 }
 
 a:hover {
@@ -98,9 +108,13 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
-    background-color: #dddddd;
+    padding-left: 0px;
+    padding-right: 0px;
     overflow: hidden;
+    background-color: black;
+    width: 317px;
+    height: 46px;
+
 }
 
 nav ul li {
@@ -109,16 +123,17 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(193,39,45);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(193,39,45);
+
 }
